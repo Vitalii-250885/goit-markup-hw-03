@@ -30,10 +30,16 @@ p {
     margin-bottom: 0;
 }
 
+.section {
+    padding-top: 94px;
+    /* padding-bottom: 94px; */
+}
+
 .site-header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -121,7 +127,6 @@ p {
 
 .hero-section {
     background-color: #2F303A;
-    margin-bottom: 94px;
 }
 
 .hero {
@@ -169,10 +174,6 @@ p {
     margin-bottom: 50px;
 }
 
-.privelege-section {
-    margin-bottom: 94px;
-}
-
 .privelege {
     display: none;
 }
@@ -205,10 +206,6 @@ p {
 
 .team-section {
     background: var(--secondary-bgcolor);
-}
-
-.team-container {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -273,18 +270,10 @@ address {
     margin-bottom: 0;
 }
 
-/* .contacts-link-foote .item + .item {
-    margin-left: 9px;
-} */
-
 /* Стили Портфолио */
 
 .portfolio-h {
     display: none;
-}
-
-.filter {
-    padding-top: 94px;
 }
 
 .filter-list {
@@ -316,15 +305,19 @@ address {
     color: #FFFFFF;
 }
 
+.portfolio-section {
+    padding-bottom: 94px;
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 94px;
 }
 
 .portfolio-list .item {
     margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio-list .item:nth-last-child(-n+3) {
