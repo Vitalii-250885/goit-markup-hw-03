@@ -32,14 +32,17 @@ p {
 
 .section {
     padding-top: 94px;
-    /* padding-bottom: 94px; */
+    padding-bottom: 94px;
+}
+
+.main-header {
+    border-bottom: 1px solid #ECECEC;
 }
 
 .site-header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -127,6 +130,8 @@ p {
 
 .hero-section {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero {
@@ -174,6 +179,10 @@ p {
     margin-bottom: 50px;
 }
 
+.privelege-section {
+    padding-top: 94px;
+}
+
 .privelege {
     display: none;
 }
@@ -187,6 +196,7 @@ p {
 }
 
 .privelege-h {
+    font-style: 14px;
     color: var(--secondary-text-color);
     font-weight: 700;
     line-height: 1.14;
@@ -195,9 +205,12 @@ p {
     margin-bottom: 10px;
 }
 
+.privelege-p {
+    width: 270px;
+}
+
 .feature {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .feature .item + .item {
@@ -220,6 +233,11 @@ p {
 .team-photo {
     width: 270px;
     margin-bottom: 30px;
+}
+
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name {
