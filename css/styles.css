@@ -196,7 +196,7 @@ p {
 }
 
 .privelege-h {
-    font-style: 14px;
+    font-size: 14px;
     color: var(--secondary-text-color);
     font-weight: 700;
     line-height: 1.14;
